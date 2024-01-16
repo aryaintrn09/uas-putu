@@ -1,0 +1,433 @@
+/* ========== Font ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+/* ========== Font End ========== */
+
+h1 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* ========== Landing Page ========== */
+/* ===== Navbar ===== */
+nav {
+  padding: 10px 100px;
+  transition: 0.5s;
+}
+nav.black {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 50px;
+  padding: 10px 45px;
+}
+nav .navbar-brand img {
+  height: 45px;
+  transition: 0.5s;
+}
+nav.black .navbar-brand img {
+  height: 30px;
+}
+nav ul li {
+  font-size: 18px;
+  transition: 0.5s;
+}
+nav.black ul li {
+  font-size: 15px;
+}
+nav .nav-item .nav-link.nak.active::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  border-radius: 10px;
+  background: white;
+}
+/* ===== Navbar End ===== */
+
+/* ===== Slider ===== */
+.carousel .carousel-caption {
+  padding-bottom: 18%;
+  text-align: left;
+}
+.carousel .carousel-caption h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  animation: animate 2.5s;
+}
+.carousel .carousel-caption p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-right: 420px;
+  animation: animate 4s;
+}
+.carousel .btn-slider {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: white;
+  border-radius: 50px;
+  animation: animate 5.5s;
+}
+.carousel .btn-slider:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* ===== Slider End ===== */
+
+/* ===== Keunggulan ===== */
+#keunggulan h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+#keunggulan p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+#keunggulan .bagian-unggul img {
+  display: block;
+  margin: 0 auto;
+}
+#keunggulan hr {
+  display: block;
+  color: coral;
+  opacity: 100%;
+  width: 100px;
+  height: 4px;
+}
+hr {
+  display: none;
+}
+/* ===== Keunggulan End ===== */
+
+/* ===== Tentang Kami ===== */
+#tentang-kami {
+  background-image: url(../img/background/bg-hitam-putih2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#tentang-kami .teks-tentangkami {
+  padding-top: 10%;
+}
+#tentang-kami .teks-tentangkami h1 {
+  color: white;
+}
+#tentang-kami .teks-tentangkami p {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+#tentang-kami .teks-tentangkami hr {
+  display: none;
+  color: coral;
+  opacity: 100%;
+  width: 100px;
+  height: 4px;
+}
+/* ===== Tentang Kami End ===== */
+
+/* ===== Product ===== */
+#product hr {
+  display: block;
+  color: coral;
+  opacity: 100%;
+  width: 100px;
+  height: 4px;
+}
+#product .col-md-6 {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+#product .product-item {
+  position: relative;
+  display: block;
+  height: 40vh;
+}
+#product .product-item img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#product .product-detail h2 {
+  font-size: 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+/* ===== Product End ===== */
+
+/* ===== Layanan ===== */
+#layanan {
+  padding-top: 30px;
+}
+#layanan h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+#layanan hr {
+  display: block;
+  color: coral;
+  opacity: 100%;
+  width: 100px;
+  height: 4px;
+}
+#layanan .content {
+  padding: 20px;
+  color: white;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#layanan .content h1 {
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#layanan .content h2 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#layanan .content p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.9;
+  text-align: justify;
+}
+#layanan .owl-nav {
+  display: none;
+}
+#layanan .owl-dots {
+  text-align: center;
+  margin-top: 3%;
+}
+#layanan .owl-dots .owl-dot {
+  display: inline-block;
+  height: 20px !important;
+  width: 20px !important;
+  background-color: #ddd !important;
+  opacity: 0.8;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+#layanan .owl-dots .owl-dot.active {
+  background-color: black !important;
+}
+#layanan .btn-layanan {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: white;
+  border-radius: 10px;
+}
+#layanan .btn-layanan:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* ===== Layanan End ===== */
+
+/* ===== Informasi ===== */
+#informasi hr {
+  display: block;
+  color: coral;
+  opacity: 100%;
+  width: 100px;
+  height: 4px;
+}
+#informasi .card-body a {
+  text-decoration: none;
+  color: black;
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+#informasi .card-body a:hover {
+  font-weight: 600;
+}
+#informasi .tengah {
+  margin: 0 20px;
+}
+/* ===== Informasi End ===== */
+
+/* ===== Hubungi Kami ===== */
+#hubungi-kami h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+#hubungi-kami p {
+  font-family: 'Poppins', sans-serif;
+}
+#hubungi-kami hr {
+  display: block;
+  margin: auto;
+  color: coral;
+  opacity: 100%;
+  width: 190px;
+  height: 4px;
+}
+#hubungi-kami .btn-kirim {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+}
+#hubungi-kami .btn-kirim:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: black;
+  border: 1px solid black;
+}
+/* ===== Hubungi Kami End ===== */
+
+/* ===== Footer ===== */
+footer {
+  background: rgba(0, 0, 0, 0.9);
+}
+footer h2 {
+  font-size: 25px;
+  opacity: 0.7;
+}
+/* ===== Footer End ===== */
+/* ========== Landing Page End ========== */
+
+/* ========== Detail Informasi ========== */
+#detail-informasi p {
+  font-family: 'Poppins', sans-serif;
+}
+#detail-informasi img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 93%;
+}
+#informasi-page hr {
+  display: block;
+  color: coral;
+  opacity: 100%;
+  width: 100px;
+  height: 4px;
+}
+/* ========== Detail Informasi End ========== */
+
+/* ========== Produk Page ========== */
+#produk-page .kiri h1 {
+  color: white;
+}
+#produk-page p {
+  font-family: 'Poppins', sans-serif;
+}
+#produk-page img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 93%;
+}
+/* ========== Produk Page End ========== */
+
+/* ===== Display ===== */
+@keyframes animate {
+  0% {
+    opacity: 0;
+    filter: blur(px);
+  }
+  10% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  nav .navbar-toggler-icon {
+    font-size: 15px;
+  }
+  nav.black {
+    height: 60px;
+  }
+  nav ul li {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0;
+  }
+  nav.black {
+    padding: 0;
+  }
+  nav .navbar-brand img {
+    height: 30px;
+  }
+  nav.black .navbar-brand img {
+    height: 25px;
+  }
+  nav .navbar-toggler-icon {
+    font-size: 15px;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  nav.black ul li {
+    font-size: 15px;
+  }
+  #keunggulan h1 {
+    font-size: 35px;
+  }
+  #keunggulan h3 {
+    font-size: 28px;
+  }
+  #keunggulan p {
+    font-size: 15px;
+  }
+  #tentang-kami .col-12.pt-3 img {
+    display: none;
+  }
+  #tentang-kami .teks-tentangkami {
+    padding-top: 0;
+  }
+  #tentang-kami .teks-tentangkami h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  #tentang-kami .teks-tentangkami p {
+    color: black;
+    opacity: 1;
+  }
+  #tentang-kami .teks-tentangkami hr {
+    display: block;
+  }
+  hr {
+    display: block;
+  }
+  #tentang-kami {
+    background-image: none;
+  }
+  #layanan .content h2 {
+    font-size: 14px;
+  }
+  #layanan .content h1 {
+    font-size: 20px;
+  }
+  #layanan .content p {
+    font-size: 14px;
+  }
+  #detail-informasi img {
+    width: 100%;
+  }
+  #informasi .tengah {
+    margin: 0;
+  }
+}
+/* ===== Display End ===== */
